@@ -1,0 +1,20 @@
+# Core LangChain libraries (2024–2025 compatible)
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-text-splitters>=0.2.0
+
+# Vector database
+chromadb>=0.5.0
+
+# Embeddings model
+sentence-transformers>=2.2.2
+
+# Required by sentence-transformers
+torch>=2.1.0
+
+# Optional but recommended for stability
+pydantic>=2.0.0
+numpy>=1.24.0
+
+# Python client wrapper for Ollama (optional but helpful)
+ollama>=0.1.0
